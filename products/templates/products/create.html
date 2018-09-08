@@ -11,6 +11,7 @@
 <h1>Create</h1>
 
 <form method="POST" action="{% url 'create' %}" enctype="multipart/form-data">
+#this is just a requirement to protect our website from some kind of attacks
 {% csrf_token %}
 Title:
 <br />
